@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+header {
+	background-color: black;
+	height: 6.7%;
+}
+
+#black {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: linear-gradient(transparent, #000);
+}
+
+#gradient {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: linear-gradient(200deg, #C074B2, #8AB5E8);
+}
+
+.container {
+	display: inline-block;
+	cursor: pointer;
+	margin: 5%;
+	float: right;
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: #FFFFFF;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+	opacity: 0;
+}
+
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#text {
+	height: 10%;
+	margin-top: 15%;
+}
+
+p {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+
+h1 {
+	color: white;
+	font-size: 120px;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0;
+	letter-spacing: -4px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+h3 {
+	color: white;
+	font-size: 45px;
+	text-align: center;
+	font-weight: 800;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 18px;
+	padding-right: 18px;
+	line-height: 1.6;
+
+}
+
+button {
+	color: white;
+	text-align: center;
+	background-color: #1DB954;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1;
+	border-radius: 500px;
+	padding: 55px 135px 55px;
+	letter-spacing: 6px;
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+
+
+}
+
+ul {
+	white-space: nowrap;
+	overflow-x: auto;
+}
+
+li {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+	white-space: nowrap;
+	overflow-x: auto;
+}
+
+figure {
+	background-color: aqua;
+	height: 500px;
+	width: 500px;
+}
+
+#pf {
+	margin-top: 27px;
+	border-radius: 50%;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+	margin-left: 45%;
+}
+
+#logo {
+	display: flex;
+	float: left;
+	margin: 32px;
+
+}
